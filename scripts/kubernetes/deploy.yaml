@@ -23,7 +23,7 @@ spec:
     spec:
       containers: 
       - name: video-streaming
-        image: $CONTAINER_REGISTRY/video-streaming:$VERSION
+        image: duozhang123456.azurecr.io/video-streaming:2
         imagePullPolicy: IfNotPresent
         env:
         - name: PORT
